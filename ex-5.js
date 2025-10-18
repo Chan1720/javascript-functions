@@ -1,7 +1,7 @@
 // Start coding here
 
 function findMinNumber(a, b) {
-    return a < b ? a : b;
+    return Math.min(a, b);
 }
 
 const minNumber = findMinNumber(10, 20);
